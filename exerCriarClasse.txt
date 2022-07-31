@@ -1,6 +1,7 @@
+const nome = "Construído";
 class Numero {
-  
-   constructor(num1) {
+ 
+  constructor(num1) {
  
      this.num1 = num1;
 
@@ -19,6 +20,9 @@ class Numero {
 
 
 let resultado = new Numero(2021);
+let valor = new Numero(2017);
+let data = new Numero(2016);
 
-
-console.log('Resultado: ',resultado.incrementar());
+console.log('Resultado: ',nome,"em",resultado.incrementar())
+console.log('Resultado: ',nome,"em",valor.incrementar())
+console.log('Resultado: ',nome,"em",data.incrementar())
