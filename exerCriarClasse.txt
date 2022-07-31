@@ -1,0 +1,24 @@
+class Car {
+  
+   constructor(name) {
+ 
+     this.name = name;
+
+  }
+
+
+  incrementar() {
+
+    return this.name += 1;
+
+
+  }
+
+
+}
+
+
+let carro = new Car(2021);
+
+
+console.log('Resultado: ',carro.incrementar());
