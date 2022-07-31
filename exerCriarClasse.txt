@@ -1,15 +1,15 @@
-class Car {
+class Numero {
   
-   constructor(name) {
+   constructor(num1) {
  
-     this.name = name;
+     this.num1 = num1;
 
   }
 
 
   incrementar() {
 
-    return this.name += 1;
+    return this.num1 += 1;
 
 
   }
@@ -18,7 +18,7 @@ class Car {
 }
 
 
-let carro = new Car(2021);
+let resultado = new Numero(2021);
 
 
-console.log('Resultado: ',carro.incrementar());
+console.log('Resultado: ',resultado.incrementar());
